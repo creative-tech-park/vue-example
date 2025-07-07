@@ -7,14 +7,8 @@ const router = createRouter({
       {
         path:'/',
         name:'Home',
-        component:()=>import('@/pages/Index.vue'),
-        
+        component:()=>import('@/views/Index.vue'),
       },
-       {
-        path:'/dashboard',
-        name:'Da',
-        component:()=>import('@/pages/Dashboard.vue')
-      }
   ]
 })
 

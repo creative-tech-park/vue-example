@@ -6,7 +6,7 @@ import AuthLayout from '@/components/AuthLayout.vue'
 
 import App from './App.vue'
 import router from './router'
-import AppLayout from '@/components/AppLayout.vue'
+
 
 const app = createApp(App)
 
